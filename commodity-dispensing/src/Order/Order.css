@@ -1,0 +1,64 @@
+/*order registration style*/
+.new-order {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.order-dropdown {
+  width: 300px !important;
+  padding-bottom: 5px !important;
+}
+
+.order-number-input {
+  min-width: 100px !important;
+  padding-bottom: 5px;
+}
+.orderAdd{
+  padding: 19px 10px !important;
+}
+
+/* style for current order registration table*/
+
+.orderHeader {
+  background-color: rgb(123, 146, 167) !important;
+  color: white;
+}
+.order-button {
+  margin: 15px !important;
+  float: right;
+}
+
+/* style for deletebytton in edit order js*/
+.delete-button {
+  position: absolute !important;
+  right: 507px !important;
+}
+
+/* style for header with date delivery and days until next delivery*/
+#dateline {
+  display: flex;
+  background-color: #fbfcfd !important;
+  padding: 10px;
+}
+
+#today {
+  margin-right: auto;
+  font-style: italic;
+  font-weight: bold;
+  color: #34495e;
+}
+
+#nextdelivery {
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  font-weight: bold;
+  color: #34495e;
+}
+
+#daysuntil {
+  margin-left: auto;
+  font-style: italic;
+  font-weight: bold;
+  color: #34495e;
+}
+

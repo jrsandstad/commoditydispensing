@@ -1,0 +1,38 @@
+
+/* style for all entire transactions form*/
+#transactionForm {
+  width: fit-content;
+  font-weight: bold;
+}
+/* style for box containing commodities and amount input*/
+.inputComAm {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin: 40px 0px !important;
+}
+
+.inputLeft {
+  min-width: 300px !important;
+  max-width: 550px !important;
+  color: black;
+}
+
+.inputRight {
+  min-width: 250px !important;
+  max-width: 350px !important;
+  color: black;
+}
+
+/* style for dispensed by and to fields*/
+.dispensed {
+  min-width: 40vh;
+
+  height: 10vh;
+}
+
+/*style for transaction button*/
+#transactionForm Button {
+  margin-top: 20px;
+  margin-right: 9px;
+  float: right;
+}

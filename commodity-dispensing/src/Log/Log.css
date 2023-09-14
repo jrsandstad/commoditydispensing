@@ -1,0 +1,14 @@
+
+/*style for all table heads (transactions and orders)*/
+.table-head-column {
+  background-color: rgb(123, 146, 167) !important;
+  width: 50px !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* style on order history header for more space between the tables*/
+#orderHistory{
+  margin-top: 35px !important;
+}
+

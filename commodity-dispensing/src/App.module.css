@@ -1,0 +1,46 @@
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+/* style for navigation box*/
+.left {
+  min-height: 100vh;
+  width: 15% !important;
+  min-width: 120px !important;
+  background-color: #f0f1f3 !important;
+  border-right: solid 1px rgb(214, 214, 214);
+}
+
+/* style for box with content of page*/
+.right {
+  flex-grow: 1;
+  min-height: 100vh;
+  padding: 26px 16px 0;
+  padding-bottom: 16px;
+  background: #ffffff;
+  width: 85% !important;
+  min-width: none;
+}
+/* header styles for entire app*/
+h1 {
+  color: #34495e;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+h3 {
+  color: #34495e;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h4 {
+  color: #34495e;
+  font-size: 15px;
+  font-weight: 400;
+}

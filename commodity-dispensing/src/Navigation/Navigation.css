@@ -1,0 +1,23 @@
+
+/* style of entire menue*/
+.menu {
+  display: flex;
+  position: fixed !important;
+  overflow: hidden !important;
+  width: 15% !important;
+  min-width: 120px !important;
+  border-right: solid 1px rgb(214, 214, 214);
+  background-color: #f0f1f3;
+}
+
+/* style of  menuitems*/
+.menuItem {
+  background-color: #f2f2f2 !important;
+  font-weight: bold !important;
+  color: #34495e !important;
+}
+
+/* highlighting menuitem of current page*/
+.menuItem.active {
+  background-color: #d5dde5 !important;
+}

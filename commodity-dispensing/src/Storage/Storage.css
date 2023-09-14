@@ -1,0 +1,77 @@
+
+/* style for all elements in table header*/
+.table-header {
+  width: 100% !important;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+.commodity-header {
+  width: 50% !important;
+  background-color: rgb(123, 146, 167) !important;
+  font-weight: bolder !important;
+  font-size: 17px !important;
+  color: white !important;
+}
+.stock-balance {
+  width: 30% !important;
+  background-color: rgb(123, 146, 167) !important;
+  font-weight: bolder !important;
+  font-size: 17px !important;
+  color: white !important;
+}
+
+/* style for all elements in table body*/
+.table-body {
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+
+.commodity-value {
+  width: 50% !important;
+}
+
+
+.stock-value {
+  width: 30% !important;
+}
+
+
+/* style for search field*/
+.searchField {
+  width: 100.7% !important;
+  padding-right: none !important;
+  padding-top: none !important;
+  margin-bottom: 15px;  
+  margin-top: 10px;
+}
+
+ /* style for header with date delivery and days until next delivery*/
+
+#dateline {
+  display: flex;
+  background-color: #fbfcfd !important;
+  padding: 10px;
+}
+
+#today {
+  margin-right: auto;
+  font-style: italic;
+  font-weight: bold;
+  color: #34495e;
+}
+
+#nextdelivery {
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  font-weight: bold;
+  color: #34495e;
+}
+
+#daysuntil {
+  margin-left: auto;
+  font-style: italic;
+  font-weight: bold;
+  color: #34495e;
+
+}
